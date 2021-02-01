@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:theme="@style/yourStyle.Drawer">
+
+
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home_color_ic">
+
+    </item>
+
+    <item
+        android:title="Indian Cases"
+        android:id="@+id/india"
+        android:icon="@drawable/india">
+
+    </item>
+
+    <item
+        android:title="Foreign Country Cases"
+        android:id="@+id/allCountry"
+        android:icon="@drawable/country_icon">
+
+    </item>
+
+    <item
+        android:id="@+id/symptoms"
+        android:icon="@drawable/symptoms"
+        android:title="Symptoms">
+
+    </item>
+
+    <item
+        android:title="COVID-19 Awareness"
+        android:id="@+id/covidAware"
+        android:icon="@drawable/ic_face_black_24dp">
+
+    </item>
+
+    <item
+        android:title="Helpline"
+        android:id="@+id/helpline"
+        android:icon="@drawable/ic_call_black_24dp">
+
+    </item>
+
+    <item
+        android:title="About"
+        android:id="@+id/about"
+        android:icon="@drawable/ic_info_black_24dp">
+
+    </item>
+
+
+
+</menu>

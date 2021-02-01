@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"
+        app:cnb_textColor="@color/backgroundColor"
+        app:cnb_iconColor="@color/backgroundColor"
+
+        app:cnb_backgroundColor="@color/lightPurple"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/india"
+        android:icon="@drawable/india_final"
+        android:title="India"
+        app:cnb_textColor="@color/backgroundColor"
+        app:cnb_iconColor="@color/backgroundColor"
+
+        app:cnb_backgroundColor="@color/lightPurple">
+
+    </item>
+
+    <item
+        android:id="@+id/allCountry"
+        android:icon="@drawable/world_logo"
+        android:title="Countries"
+        app:cnb_textColor="@color/backgroundColor"
+        app:cnb_iconColor="@color/backgroundColor"
+
+        app:cnb_backgroundColor="@color/lightPurple">
+
+    </item>
+
+    <item
+        android:id="@+id/symptoms"
+        android:icon="@drawable/symptoms_corona"
+        android:title="Symptoms"
+        app:cnb_textColor="@color/backgroundColor"
+        app:cnb_iconColor="@color/backgroundColor"
+
+        app:cnb_backgroundColor="@color/lightPurple">
+
+    </item>
+
+</menu>

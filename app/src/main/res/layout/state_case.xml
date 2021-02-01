@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/backgroundColor"
+    android:isScrollContainer="true"
+    android:layout_marginHorizontal="10dp"
+    android:foreground="@android:drawable/list_selector_background"
+    android:id="@+id/card"
+    app:cardElevation="1dp"
+    android:layout_marginBottom="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/stateName"
+        android:text="Total Cases"
+        android:fontFamily="@font/lato_bold"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:layout_margin="5dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stateCase"
+        android:text="000000"
+        android:fontFamily="@font/lato_bolditalic"
+        android:textSize="20sp"
+        android:textColor="@color/textColor"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentRight="true">
+
+    </TextView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Covid-19 Info</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="ansFirstText"> COVID-19 is the infectious disease caused by the most recently discovered corona virus.</string>
+    <string name="queSec"> What is corona virus?</string>
+    <string name="ansSec"> Corona virus is a large family of viruses which may cause illness in animals or humans. A newly identified corona virus, SARS-CoV-2, has caused a worldwide pandemic of respiratory illness, called COVID-19.</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="drCough">Dry Cough</string>
+    <string name="fever_tiredness">Fever,Tiredness</string>
+    <string name="aches_and_pains">Aches and Pains</string>
+    <string name="runny_nose">Runny Nose</string>
+    <string name="sore_throat_and_diarrhea">Sore throat and diarrhea</string>
+    <string name="state_name">State Name</string>
+    <string name="the_most_common_symptoms_of_covid_19">The most common symptoms of covid-19.</string>
+    <string name="dry_cough">Dry Cough</string>
+    <string name="sore_throat_or_diarrhea">Sore throat or diarrhea</string>
+    <string name="diar">Diar</string>
+    <string name="_2_wash_your_hands_properly">2. Wash your hands properly</string>
+    <string name="_3_wear_mask">3. Wear Mask</string>
+    <string name="_4_namaste_no_shake_hands">4. Namaste:No shake hands</string>
+    <string name="_5_avoid_contacts_with_sick_people">5. Avoid contacts with sick people</string>
+    <string name="_1_keep_social_distancing">1. Keep Social Distancing</string>
+    <string name="version_1_0">Version 1.0</string>
+    <string name="developer_contact">Developer Contact:</string>
+    <string name="nshakya303_gmail_com">nshakya303@gmail.com</string>
+    <string name="click_here_to_contact">click here to contact:</string>
+    <string name="worldwide">Worldwide</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="covid_19_live_update">Covid-19 LIVE UPDATE</string>
+    <string name="covid_info">Covid Info</string>
+    <string name="_000000">000000</string>
+    <string name="country_wise">Country Wise</string>
+    <string name="todo">TODO</string>
+    <string name="total_recoveres">Total Recoveres</string>
+    <string name="total_active_cases">Total Active Cases</string>
+    <string name="total_cases">Total Cases</string>
+    <string name="total_indian_cases">Total Indian Cases</string>
+    <string name="total_foreign_cases">Total Foreign Cases</string>
+    <string name="total_recovered">Total Recovered</string>
+    <string name="total_deaths">Total Deaths</string>
+    <string name="loading">Loading...</string>
+    <string name="state_wise">State Wise</string>
+</resources>

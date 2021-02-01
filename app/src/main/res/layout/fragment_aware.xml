@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.AwareFrag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundColor"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="social_distancing.json"
+            app:lottie_loop="true"
+            app:lottie_repeatMode="restart">
+
+        </com.airbnb.lottie.LottieAnimationView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/textColor"
+            android:text="@string/_1_keep_social_distancing"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="handwash.json"
+            app:lottie_loop="true"
+            app:lottie_repeatMode="restart">
+
+        </com.airbnb.lottie.LottieAnimationView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/textColor"
+            android:text="@string/_2_wash_your_hands_properly"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="wear_mask.json"
+            app:lottie_loop="true"
+            app:lottie_repeatMode="restart">
+
+        </com.airbnb.lottie.LottieAnimationView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/textColor"
+            android:text="@string/_3_wear_mask"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="namaste.json"
+            app:lottie_loop="true"
+            app:lottie_repeatMode="restart">
+
+        </com.airbnb.lottie.LottieAnimationView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/textColor"
+            android:text="@string/_4_namaste_no_shake_hands"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="avoid.json"
+            app:lottie_loop="true"
+            app:lottie_repeatMode="restart">
+
+        </com.airbnb.lottie.LottieAnimationView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/textColor"
+            android:text="@string/_5_avoid_contacts_with_sick_people"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@color/backgroundColor">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
